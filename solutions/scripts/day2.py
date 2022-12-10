@@ -1,5 +1,4 @@
-from functools import reduce
-from typing import List, Tuple, TypeAlias
+from typing import Tuple, TypeAlias
 
 from solutions.inputs.utils import AoCInput, day
 
