@@ -1,10 +1,10 @@
 from functools import reduce
-from typing import Literal, Tuple
+from typing import Tuple
 
 from solutions.inputs.utils import AoCInput, day
 
 
-def gamma_pos(positional_bits) -> Literal[0, 1]:
+def gamma_pos(positional_bits) -> int:
     return int(2 * sum(int(bit) for bit in positional_bits) >= len(positional_bits))
 
 

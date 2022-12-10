@@ -9,7 +9,7 @@ def update_position(cur_position: Coord, dx: int, dy: int, da: int) -> Coord:
     return (cur_position[0] + dx, cur_position[1] + dy, cur_position[2] + da)
 
 
-def plot_course(course_steps: AoCInput, use_aim: bool = False) -> Coord:
+def plot_course(course_steps: AoCInput, use_aim: bool = False) -> int:
     sub_pos = (0, 0, 0)
     for step in course_steps:
         dx, dy, da = 0, 0, 0

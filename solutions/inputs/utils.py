@@ -1,6 +1,6 @@
-from typing import List, TypeAlias, Union
+from typing import List, TypeAlias
 
-AoCInput: TypeAlias = Union[str, List[str]]
+AoCInput: TypeAlias = List[str]
 
 
 def day(day_number: int, test: bool = False, split_char: str = "\n") -> AoCInput:

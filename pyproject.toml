@@ -3,7 +3,6 @@ name = "aoc2021"
 version = "0.1.0"
 description = "Advent of Code 2021"
 authors = ["James Diotte <JamesDiotte@gmail.com>"]
-include = ["solutions"]
 
 [tool.poetry.dependencies]
 python = "^3.8.1"

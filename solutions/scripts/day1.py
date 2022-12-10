@@ -7,8 +7,8 @@ def decrease_resolution(depths: AoCInput, factor: int) -> List[int]:
     return [sum(int(d) for d in depths[k : k + factor]) for k in range(len(depths))]
 
 
-def get_depth_increase_positions(depths: AoCInput, resolution: int = 1) -> List[int]:
-    depths = decrease_resolution(depths, resolution)
+def get_depth_increase_positions(depths_unresolved: AoCInput, resolution: int = 1) -> List[int]:
+    depths = decrease_resolution(depths_unresolved, resolution)
     return [prev_ix + 1 for prev_ix, depth in enumerate(depths[1:]) if depth > depths[prev_ix]]
 
 
