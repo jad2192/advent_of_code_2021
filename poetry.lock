@@ -576,6 +576,14 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
+name = "solutions"
+version = "0.0.2"
+description = "Solutions to common Python interview problems."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "stack-data"
 version = "0.6.2"
 description = "Extract data from python stack frames and tracebacks for informative displays"
@@ -640,7 +648,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8.1"
-content-hash = "f9b516f3e7733cd8f6e0f0eaf55ae80b23925667bc3042701e6e0f51ad3b1fd1"
+content-hash = "eb43378aaa82b65029f11d159f4df6d7a1d29092635ce4071ddc6ed2d38728f8"
 
 [metadata.files]
 appnope = []
@@ -691,6 +699,7 @@ python-dateutil = []
 pywin32 = []
 pyzmq = []
 six = []
+solutions = []
 stack-data = []
 tomli = []
 tornado = []
